@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">	<!-- utf8 -->
+		
+		<!-- settare le dimensioni del sito rispetto al dispositivo (device) su cui verrà aperto -->
+		<meta name="viewport" content="width=device-width, initial-scale=1">	
+		<title>Il mio sito web</title>
+	</head>
+	
+	<body>
+		<h1>Il mio sito Web</h1>	<!-- gli h vanno da 1 a 6 e sono titoli sempre minori -->
+		<h2>Prova in HTML</h2>
+		
+		<!-- con "b" si ha il testo in grassetto (bold) -->
+		Questo è il mio primo sito <b>e sono contento</b>
+		
+		<!-- con "p" si fa un nuovo paragrafo -->
+		<p>
+			Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. <em>It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.</em> It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+		</p>
+		
+		<hr>	<!-- Con questa comando faccio una linea orizzontale su tutta la pagina -->
+		
+		<!-- con "br" si va a capo -->
+		Lorem Ipsum is simply dummy text of the printing and typesetting industry. <br> <br> <br>
+		<br/>
+		
+		<!-- con "i" si ha il testo in corsivo (italic) e con "u" sottolineato (underlined) -->
+		<i>Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. <u>It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum</u>.</i>
+
+		<br/>	<!-- Con questa sintassi faccio dei commenti al codice -->
+		<hr>	<!-- Con questa comando faccio una linea orizzontale su tutta la pagina -->
+		
+		<!-- con "a" si creano dei link che rimandano al collegamento href (hyper reference), il target serve a scegliere se aprire il liunk nella stessa pagina o in una nuova scheda -->
+		Link alla Home Page di Google: <a href="https://www.google.com" target="_blank"> ecco qua </a>
+
+		<br/>	<!-- Con questa sintassi faccio dei commenti al codice -->
+		<hr>	<!-- Con questa comando faccio una linea orizzontale su tutta la pagina -->
+		
+		<img src="immagine.jpg" border="10" width="600" height="400">
+		
+		<br/>	<!-- Con questa sintassi faccio dei commenti al codice -->
+		<hr>	<!-- Con questa comando faccio una linea orizzontale su tutta la pagina -->
+		
+		<!-- Incomincio un elenco PUNTATO -->
+		<ul>
+			<li>Mele
+				<ol>	<!-- Incomincio un elenco NUMERATO -->
+					<li> Rosse </li>
+					<li> Verdi </li>
+					<li> Gialle </li>
+				</ol>
+			</li>
+			<li> Pere </li>	<!-- Gli item sono contrassegnati con "li" -->
+			<li> Arance </li>
+		</ul>
+
+		<br/>	<!-- Con questa sintassi faccio dei commenti al codice -->
+		<hr>	<!-- Con questa comando faccio una linea orizzontale su tutta la pagina -->
+		
+		<!-- Creo una tabella con un bordo di 10, con celle larghe 10 rispetto al testo contenuto, con una separazione di 0 tra le varie celle ossia una singola riga di separazione -->
+		<table border="10" cellpadding="10" cellspacing="0">
+			<tr>	<!-- Inizio prima riga (table raw, tr) -->
+				<th> Utente </th>	<!-- Teso in grassetto -->
+				<th> Mese  </th>
+				<th> Giorno </th>
+				<th colspan="2"> Macchina </th>	<!-- Questa cella starà sopra a 2 colonne -->
+			</tr>
+			<tr>
+				<td rowspan="2"> Fratelli </td> <!-- Questa cella starà di fianco a 2 righe -->
+				<td> Gennaio </td>
+				<td> 21 </td>
+				<td> Tesla </td>	<!-- Teso normale -->
+				<td> Lamborgini </td>
+			</tr>
+			<tr>
+				<td> Agosto </td>
+				<td> 30 </td>
+				<td> Ferrari </td>
+				<td> Seat </td>
+			</tr>
+		</table>
+	</body>
+</html>
+
+
